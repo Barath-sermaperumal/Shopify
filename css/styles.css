@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  height: 13vh;
+  color: aliceblue;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.a1 {
+  display: flex;
+  height: 13vh;
+  margin-left: 40px;
+  justify-content: flex-start;
+  width: 10vw;
+}
+
+select{
+    opacity: 0;
+}
+
+.a2 {
+  display: flex;
+  height: 13vh;
+  color: aliceblue;
+  width: 60vw;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.a3 {
+  display: flex;
+  height: 13vh;
+  color: aliceblue;
+  width: 30vw;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn1 {
+  display: flex;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: medium;
+  height: 40px;
+  width: 130px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+}
+
+.p2 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: rgb(136, 135, 135);
+}
+
+.img1 {
+  height: 200px;
+  width: 700px;
+  padding-left: 300px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.p3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.foot {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+input {
+  height: 50px;
+  width: 350px;
+  font-size: medium;
+  margin: 8px;
+  border-radius: 5px;
+  border-color: #959696;
+  border-style: solid;
+}
+
+.btn2 {
+  margin: 8px;
+  background-color: #008060;
+  width: 150px;
+  color: white;
+  border: white;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
